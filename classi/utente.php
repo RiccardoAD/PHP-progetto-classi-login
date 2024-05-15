@@ -25,7 +25,7 @@ class Utente{
                 echo "Nome utente o password errati.";
             }
         } else {
-            echo "Nome utente o password errati2.";
+            echo "Nome utente o password errati.";
         }
     }
 

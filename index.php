@@ -19,9 +19,3 @@ include __DIR__ . '/header.php';
 
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
-
-<?php
-
-include __DIR__ . '/footer.php';
-
-?>
