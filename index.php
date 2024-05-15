@@ -9,6 +9,7 @@ include __DIR__ . '/header.php';
 <h1>Login</h1>
 <form method="post" action="">
     <div class="mb-3">
+       <h1> utente :admin  pw :11</h1>
         <label for="utente" class="form-label">Utente</label>
         <input type="text" class="form-control" name="utente" id="utente" aria-describedby="utente">
     </div>

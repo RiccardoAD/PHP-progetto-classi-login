@@ -1,4 +1,6 @@
 <?php
+session_start ();
+
 include_once __DIR__.'/classi/utente.php'; 
 $servername = "localhost";
 $username = "root"; // Cambia questo se il tuo utente MySQL non è 'root'

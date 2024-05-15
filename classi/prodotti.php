@@ -20,7 +20,7 @@ class Prodotti {
         echo '<div class="card" style="width: 100% ;">';
         echo '<img src="'.$this->img.'" class="card-img-top  object-fit-cover" style="height:15rem;width:100%" alt="img">';
         echo '<div class="card-body">';
-        echo '<h5>'.'Casa: '.$this->nome.'</h5>';
+        echo '<h5> '.$this->nome.'</h5>';
         echo '<p>Prezzo : €'.$this->prezzo.'</span></p>';
         echo '<a href="delete.php?id='.$this->id.'" class="btn btn-danger">Elimina</a>';
 

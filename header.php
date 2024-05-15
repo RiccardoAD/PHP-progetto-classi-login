@@ -13,5 +13,13 @@
 </head>
 
 <body>
+<nav class="navbar bg-body-info">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">DOP</span>
+            <a href="index.php"><a href="destroy.php">Esci</a>
+            <a href="inserisci.php">inserisci</a>
+        </div>
+
+    </nav>
     
     <div class="container">

@@ -15,17 +15,19 @@ class Utente{
         $stmt->execute(['utente' => $utente]);
         $user = $stmt->fetch();
       
-        // Verificare se l'utente esiste e controllare la password
+        
         if ($user) {
             if ($password=== $user['password']) {
-                // Login riuscito
+                $_SESSION['utente'] = true;
+                
                 header("Location: admin.php");
-                exit(); // Importante per interrompere l'esecuzione del codice
+                exit(); 
             } else {
                 echo "Nome utente o password errati.";
             }
         } else {
             echo "Nome utente o password errati.";
+            $_SESSION['utente'] = false;
         }
     }
 
